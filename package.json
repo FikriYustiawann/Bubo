@@ -1,0 +1,35 @@
+{
+  "name": "bubo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "setup": "expo install react react-dom react-native react-native-web @expo/metro-runtime react-native-svg expo-audio react-native-safe-area-context @react-native-async-storage/async-storage expo-status-bar expo-font expo-image-picker expo-document-picker expo-image-manipulator",
+    "start": "expo start",
+    "usb": "expo start --android --localhost",
+    "tunnel": "expo start --tunnel",
+    "android": "expo start --android",
+    "web": "expo start --web",
+    "doctor": "expo-doctor",
+    "fix": "expo install --fix",
+    "build:web": "expo export --platform web",
+    "preview:web": "npx serve dist"
+  },
+  "dependencies": {
+    "@expo/metro-runtime": "~58.0.17",
+    "@react-native-async-storage/async-storage": "2.2.0",
+    "expo": "~58.0.0",
+    "expo-audio": "~58.0.12",
+    "expo-document-picker": "~58.0.5",
+    "expo-font": "~58.0.12",
+    "expo-image-manipulator": "~58.0.16",
+    "expo-image-picker": "~58.0.10",
+    "expo-status-bar": "~58.0.5",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "react-native": "0.88.1",
+    "react-native-safe-area-context": "~5.11.1",
+    "react-native-svg": "15.16.0",
+    "react-native-web": "^0.21.4"
+  },
+  "private": true
+}

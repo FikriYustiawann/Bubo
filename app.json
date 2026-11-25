@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "Bubo",
+    "slug": "bubo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "backgroundColor": "#FFFFFF",
+    "android": {
+      "package": "com.bubo.app",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#1CB0F6"
+      },
+      "softwareKeyboardLayoutMode": "resize"
+    },
+    "ios": {
+      "bundleIdentifier": "com.bubo.app",
+      "supportsTablet": true
+    },
+    "web": {
+      "bundler": "metro",
+      "favicon": "./assets/favicon.png",
+      "output": "single",
+      "name": "Bubo",
+      "shortName": "Bubo",
+      "backgroundColor": "#FFFFFF",
+      "themeColor": "#1CB0F6"
+    },
+    "plugins": [
+      "expo-status-bar",
+      "expo-font",
+      "expo-audio",
+      ["expo-image-picker", { "cameraPermission": "Bubo butuh kamera untuk memotret soal.", "photosPermission": "Bubo butuh akses foto untuk membaca soal dari galeri." }],
+      "expo-document-picker"
+    ]
+  }
+}
