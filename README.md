@@ -8,7 +8,7 @@
 
 Aplikasi Android bergaya Duolingo dengan mentor AI yang dipandu *Rigorous Mathematical Thinking*.
 
-[![Buka Aplikasi](https://img.shields.io/badge/Buka%20Aplikasi-fikriyustiawann.github.io%2Fbubo-1CB0F6?style=for-the-badge&logo=github&logoColor=white)](https://fikriyustiawann.github.io/bubo/)
+[![Buka Aplikasi](https://img.shields.io/badge/Buka%20Aplikasi-fikriyustiawann.github.io%2Fbubo-1CB0F6?style=for-the-badge&logo=github&logoColor=white)](https://fikriyustiawann.github.io/Bubo/)
 
 ![Expo](https://img.shields.io/badge/Expo-SDK%2058-000020?style=flat-square&logo=expo&logoColor=white)
 ![React Native](https://img.shields.io/badge/React%20Native-0.88-61DAFB?style=flat-square&logo=react&logoColor=black)
