@@ -1,78 +1,102 @@
 <div align="center">
 
-<img src="docs/logo.png" alt="Logo Bubo" width="160" />
+<img src="docs/logo.png" alt="Logo Bubo" width="150" />
 
 # Bubo
 
-### Belajar perbandingan senilai dan berbalik nilai bersama burung hantu berkacamata biru
+**Belajar perbandingan senilai dan berbalik nilai bersama burung hantu berkacamata biru.**
 
-Aplikasi **Android** (React Native + Expo) bergaya Duolingo, dengan mentor AI yang dipandu
-*Rigorous Mathematical Thinking*.
+Aplikasi Android bergaya Duolingo dengan mentor AI yang dipandu *Rigorous Mathematical Thinking*.
 
-![Expo](https://img.shields.io/badge/Expo-SDK%2058-000020?style=for-the-badge&logo=expo&logoColor=white)
-![React Native](https://img.shields.io/badge/React%20Native-0.88-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Android](https://img.shields.io/badge/Android-APK-3DDC84?style=for-the-badge&logo=android&logoColor=white)
-![Web](https://img.shields.io/badge/Web-GitHub%20Pages-181717?style=for-the-badge&logo=github&logoColor=white)
+[![Buka Aplikasi](https://img.shields.io/badge/Buka%20Aplikasi-fikriyustiawann.github.io%2Fbubo-1CB0F6?style=for-the-badge&logo=github&logoColor=white)](https://fikriyustiawann.github.io/bubo/)
 
-[Fitur](#-fitur) •
-[Cara Pakai](#-cara-pakai) •
-[Konfigurasi AI](#-konfigurasi-ai) •
-[Struktur](#-struktur-proyek)
+![Expo](https://img.shields.io/badge/Expo-SDK%2058-000020?style=flat-square&logo=expo&logoColor=white)
+![React Native](https://img.shields.io/badge/React%20Native-0.88-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Android](https://img.shields.io/badge/Android-APK-3DDC84?style=flat-square&logo=android&logoColor=white)
 
 </div>
 
 ---
 
-## 📖 Tentang
+## Tentang Bubo
 
-**Bubo** membantu siswa memahami materi **perbandingan senilai** dan **berbalik nilai**. Siswa tidak memilih pilihan ganda, tetapi **mengetik jawabannya sendiri**, ditemani maskot Bubo yang memberi petunjuk bertahap.
+Bubo membantu siswa memahami materi **perbandingan senilai** dan **berbalik nilai** dengan cara yang tidak membosankan. Siswa tidak memilih pilihan ganda, melainkan **mengetik jawabannya sendiri**, sementara Bubo memberi petunjuk bertahap saat siswa kesulitan.
 
-Repo ini berisi **kerangka (source code) proyek Android** lengkap, jadi bisa dijalankan, diubah, atau dibuild menjadi APK.
+Aplikasi ini berjalan di Android, dan juga bisa dibuka lewat browser.
 
-## ✨ Fitur
+## Fitur
 
-| Fitur | Isi |
-| --- | --- |
-| 🛤️ **Jalur Belajar** | 4 unit, 16 pelajaran. Kartu penjelasan lalu soal esai, bertahap Input → Elaborasi → Output |
-| 🎲 **Soal Acak** | Angka selalu baru, jawaban dihitung otomatis. Menerima format `48.000`, `48000`, `Rp48.000`, `9/2`, `4,5` |
-| 💡 **Petunjuk Bertingkat** | 3 level: arah berpikir, susunan hitungan, lalu langkah lengkap |
-| 🏆 **XP, Level, Hati, Runtutan** | Dilengkapi 4 misi harian dan 15 lencana yang menandai kebiasaan belajar nyata |
-| 🗺️ **Peta Kemampuan** | Ukuran paham per kemampuan, dengan tombol BACA MATERI / LATIHAN untuk yang lemah |
-| 📚 **Materi** | 9 topik bacaan, lembar rumus (kartu bisa dibalik), 17 istilah, Lab Senilai dan Lab Berbalik Nilai, permainan "Tebak jenisnya" |
-| ▶️ **Video** | 20 video YouTube penjelasan, dikelompokkan per topik |
-| 🔁 **Dari Kesalahanku** | Soal yang pernah salah dibuat ulang dengan angka baru |
-| 🦉 **Tanya Bubo** | Mentor AI. Bisa memotret soal atau melampirkan berkas teks |
-| 🔊 **Efek Suara & Ikon 2D** | 43 ikon SVG interaktif dan efek suara di setiap aksi |
+### Jalur belajar
 
-## 🚀 Cara Pakai
+- **4 unit dan 16 pelajaran**, dimulai dari kartu penjelasan lalu soal esai.
+- Setiap soal mengikuti tiga tahap berpikir: **Input**, **Elaborasi**, dan **Output**.
+- **Soal selalu baru.** Angka diacak setiap kali, dan jawaban dihitung otomatis.
+- **Pemeriksa jawaban fleksibel.** Format `48.000`, `48000`, `Rp48.000`, `9/2`, dan `4,5` sama-sama diterima.
+- **Petunjuk tiga tingkat:** arah berpikir, susunan hitungan, lalu langkah lengkap.
 
-### 1. Coba lewat browser
+### Latihan
 
-Buka: **https://fikriyustiawann.github.io/mathlink/**
+- Latihan tanpa batas untuk soal senilai, berbalik nilai, dan campuran.
+- Fitur **Dari Kesalahanku** membuat ulang soal yang pernah salah dengan angka baru.
+- Latihan tidak mengurangi hati, dan menyelesaikan satu sesi justru menambah satu hati.
 
-### 2. Jalankan di HP Android (Expo Go)
+### Materi
 
-1. Pasang **Expo Go** dari Play Store di HP.
-2. Di komputer, jalankan perintah di bagian "Jalankan dari kode" di bawah.
-3. Jalankan `npm run tunnel`, lalu scan QR yang muncul memakai Expo Go.
+- **9 topik bacaan** dengan contoh soal berlangkah: rasio, tiga besaran, senilai, skala, berbalik nilai, laju jarak waktu, grafik, cara membedakan keduanya, dan strategi 4 langkah.
+- **Lab Senilai** dan **Lab Berbalik Nilai** untuk mencoba sendiri dan melihat perubahannya.
+- **Lembar rumus** berupa 17 kartu yang bisa dibalik dan dibagikan.
+- **Glosarium** 17 istilah yang bisa dicari.
+- **Permainan Tebak Jenisnya** untuk melatih membedakan senilai dan berbalik nilai.
+- **20 video YouTube** yang dikelompokkan per topik.
 
-Atau hubungkan HP lewat kabel USB (aktifkan *USB debugging*), lalu `npm run usb`.
+### Tanya Bubo
 
-### 3. Jalankan dari kode
+- Mentor AI yang membimbing lewat pertanyaan, bukan langsung memberi jawaban.
+- Siswa bisa **memotret soal** dari kamera atau galeri, atau melampirkan berkas teks.
+- Balasan tampil rapi lengkap dengan huruf tebal, daftar, dan tabel.
 
-Butuh [Node.js](https://nodejs.org) **22.13 atau lebih baru**.
+### Motivasi belajar
+
+- **XP dan level** dari Penjelajah sampai Juara Banding, sebagai jejak usaha belajar.
+- **Hati** sebagai kesempatan berpikir. Kalau habis, siswa bisa memulihkannya dengan membaca materi atau berlatih.
+- **Runtutan harian** dengan target 30 XP per hari.
+- **4 misi harian** yang mengikuti tahap Input, Elaborasi, Output, dan Refleksi.
+- **15 lencana** untuk kebiasaan belajar yang nyata.
+- **Peta Kemampuan** di Profil yang menunjukkan kemampuan mana yang sudah kuat dan mana yang perlu diperkuat.
+
+### Tampilan
+
+- Maskot Bubo, ikon 2D interaktif, dan transisi yang halus.
+- Efek suara pada tombol, jawaban benar dan salah, kombo, lencana, dan lainnya.
+- Rumus matematika ditulis bergaya buku, dengan pecahan bersusun.
+
+## Cara Memakai
+
+### Lewat browser
+
+Buka **https://fikriyustiawann.github.io/bubo/**, lalu masukkan nama dan mulai belajar. Progres tersimpan di browser yang dipakai.
+
+### Di HP Android dengan Expo Go
+
+1. Pasang **Expo Go** dari Play Store.
+2. Di komputer, jalankan proyek (lihat bagian berikutnya) dengan `npm run tunnel`.
+3. Scan kode QR yang muncul memakai Expo Go.
+
+### Menjalankan dari kode
+
+Butuh [Node.js](https://nodejs.org) versi 22.13 atau lebih baru.
 
 ```bash
-git clone https://github.com/FikriYustiawann/mathlink.git
-cd mathlink
+git clone https://github.com/FikriYustiawann/bubo.git
+cd bubo
 npm install
 npm run setup
 npx expo start -c
 ```
 
-Tekan `w` untuk membuka di browser, atau `a` untuk emulator Android.
+Tekan `w` untuk membuka di browser atau `a` untuk emulator Android.
 
-### 4. Build jadi APK
+### Membuat APK
 
 ```bash
 npm install -g eas-cli
@@ -80,77 +104,33 @@ eas login
 eas build -p android --profile preview
 ```
 
-Setelah selesai, EAS memberi tautan unduhan file `.apk` yang bisa dipasang langsung di HP Android.
+Setelah build selesai, EAS memberikan tautan untuk mengunduh file APK yang bisa langsung dipasang di HP Android.
 
-### Perintah lain
+## Konfigurasi AI
 
-| Perintah | Fungsi |
-| --- | --- |
-| `npm run web` | Jalankan versi web |
-| `npm run usb` | Uji di HP Android lewat kabel USB |
-| `npm run tunnel` | Uji di HP lewat internet, scan QR |
-| `npm run build:web` | Hasilkan situs statis ke folder `dist/` |
-| `npm run doctor` | Cek masalah konfigurasi |
-
-## 🤖 Konfigurasi AI
-
-Fitur **Tanya Bubo** memakai API yang kompatibel dengan OpenAI. Atur lewat file `.env` di folder utama:
+Fitur Tanya Bubo memakai API yang kompatibel dengan OpenAI. Atur lewat file `.env`:
 
 ```env
 EXPO_PUBLIC_AI_API_KEY=isi_kunci_api_kamu
 EXPO_PUBLIC_AI_BASE_URL=https://alamat-api-penyedia/v1
 EXPO_PUBLIC_AI_MODEL=nama-model-percakapan
 
-# Opsional: pembaca foto soal
+# Opsional, untuk membaca foto soal
 EXPO_PUBLIC_AI_VISION_API_KEY=
 EXPO_PUBLIC_AI_VISION_BASE_URL=
 EXPO_PUBLIC_AI_VISION_MODEL=nama-model-gambar
 ```
 
-Setelah mengubah `.env`, jalankan ulang dengan `npx expo start -c`.
+Jalankan ulang dengan `npx expo start -c` setelah mengubah `.env`.
 
-> ⚠️ **Catatan keamanan:** variabel `EXPO_PUBLIC_*` ikut tertanam di hasil build (APK dan web), sehingga bisa dibaca siapa pun yang memiliki aplikasinya. Untuk rilis publik, simpan kunci di server dan arahkan `EXPO_PUBLIC_AI_BASE_URL` ke proxy milikmu.
+> **Catatan keamanan.** Variabel `EXPO_PUBLIC_*` ikut tertanam di hasil build, sehingga bisa dibaca siapa pun yang memiliki aplikasinya. Untuk rilis publik, simpan kunci di server dan arahkan `EXPO_PUBLIC_AI_BASE_URL` ke proxy milikmu.
 
-## 🗂️ Struktur Proyek
+## Landasan Pembelajaran
 
-```
-App.js                        titik masuk aplikasi
-index.js                      registrasi aplikasi Expo
-app.json / eas.json           konfigurasi Expo dan build APK
-.env                          konfigurasi AI
-.github/workflows/deploy.yml  build dan tayang otomatis ke GitHub Pages
-docs/                         logo dan ringkasan RMT
-assets/                       ikon, font Nunito, efek suara
-src/ai.js                     klien AI (kompatibel OpenAI)
-src/rmt.js                    prompt mentor berbasis RMT
-src/utils/storage.js          penyimpanan progres
-src/duo/
-  brand.js                    nama aplikasi dan maskot
-  engine.js                   pembangkit soal dan pemeriksa jawaban
-  lessons.js                  unit dan pelajaran
-  state.js                    XP, hati, runtutan, misi, lencana
-  materiData.js               isi materi, rumus, istilah, video
-  Path / Lesson / Practice    layar belajar dan latihan
-  Quests / Profil / Tutor     layar misi, profil, dan chat Bubo
-  Icon / Owl / Math / ui      ikon, maskot, rumus, komponen bersama
-```
+Perilaku mentor AI mengacu pada buku *Rigorous Mathematical Thinking* karya Kinard dan Kozulin, yaitu fungsi kognitif Input, Elaborasi, dan Output, serta siklus Representasi, Manipulasi, dan Validasi. Ringkasannya ada di [docs/RMT_RINGKASAN.md](docs/RMT_RINGKASAN.md).
 
-Mengganti nama aplikasi dan maskot cukup di `src/duo/brand.js`. Catatan pengembangan lengkap ada di [PROJECT_NOTES.md](PROJECT_NOTES.md).
+## Pembuat
 
-## 📤 Upload ke GitHub
-
-```bash
-git add .
-git commit -m "Jelaskan apa yang berubah"
-git push origin main
-```
-
-Setiap `push` ke `main` otomatis membuild dan menayangkan versi web lewat GitHub Pages.
-
-## 🎓 Landasan Pembelajaran
-
-Perilaku mentor AI mengacu pada buku *Rigorous Mathematical Thinking* (Kinard & Kozulin): fungsi kognitif **Input → Elaborasi → Output**, serta siklus **Representasi → Manipulasi → Validasi**. Ringkasannya ada di [docs/RMT_RINGKASAN.md](docs/RMT_RINGKASAN.md).
-
-## 👨‍💻 Pembuat
-
-**Fikri Yustiawan** · Pendidikan Matematika, FKIP Untirta · [@FikriYustiawann](https://github.com/FikriYustiawann)
+**Fikri Yustiawan**
+Pendidikan Matematika, FKIP Universitas Sultan Ageng Tirtayasa
+GitHub: [@FikriYustiawann](https://github.com/FikriYustiawann)
