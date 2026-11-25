@@ -74,7 +74,7 @@ Aplikasi ini berjalan di Android, dan juga bisa dibuka lewat browser.
 
 ### Lewat browser
 
-Buka **https://fikriyustiawann.github.io/bubo/**, lalu masukkan nama dan mulai belajar. Progres tersimpan di browser yang dipakai.
+Buka **https://fikriyustiawann.github.io/Bubo/**, lalu masukkan nama dan mulai belajar. Progres tersimpan di browser yang dipakai.
 
 ### Di HP Android dengan Expo Go
 
